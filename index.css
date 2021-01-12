@@ -1,0 +1,206 @@
+* {box-sizing: border-box}
+@font-face {
+    font-family: Montserrat;
+    src: url('Montserrat/Montserrat-Light.ttf');
+}
+body{
+    font-family: Montserrat;
+}
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px; 
+    font-weight: bold;
+    line-height: 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-button{
+      
+      color: white;
+      cursor: pointer;
+  }
+  .header a:hover {
+    background-color: #ddd;
+  }
+  
+  .header a.active {
+    
+    color: black;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -10px;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  .banner-paragraph{
+      float: center; 
+      font-size: 50px; 
+      display: flex;
+      justify-content: center;   
+     
+  }
+  
+  .search-container {
+      background-color: #FFF;
+      position: relative;
+      border: 1px solid;
+      border-radius: 30px;
+      padding: 3px 50px 3px 10px;
+      margin:auto;
+      max-width:500px;
+    }
+    .search-box {
+      background-color: transparent;
+      outline: none;
+      height: 35px;
+      font-size: 15px;
+      border: 0;
+      width: 100%;
+    }
+    .search-button {
+      position: absolute;
+      right: 4px;
+      font-size: 15px;
+      top: 4px;
+      background-color:#6754e2;
+      border: 0;
+      color: #FFF;
+      width: 150px;
+      height: 35px;
+      outline: 0;
+      border-radius: 30px;
+      padding: 3px 50px 3px 10px;
+    }
+    .partner {
+        display: flex;
+        justify-content: space-between;
+        background-color: ghostwhite;
+        box-shadow: ghostwhite;
+        margin: 120px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        opacity: 0.5;
+    }
+.bloc1-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 300px;
+}
+hr {
+    height: 250px;
+}
+.bloc1-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+button{
+    font-family: Montserrat;
+    text-align: center;
+    padding: 20px;
+    font-size: 7px; 
+    line-height: 2px;
+    border-radius: 20px;
+    background-color: #6754e2;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    outline-style: none ;
+    box-shadow: 2px 2px 2px rgb(136, 81, 175);
+}
+.bloc1-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bloc2-container {
+    background-color: rgb(250, 250, 250);
+}
+.bloc2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloc2-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 250px;
+}
+.bloc2 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 50px;
+}
+.card {
+    width: 280px;
+    height: 110px;
+    background-color: white;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: -5px 1px 2px rgba(253, 253, 253, 0.1), 0 0 0 2px rgba(202, 197, 197, 0.1);
+    border-radius: 8px;
+}
+.card2 {
+    width: 280px;
+    height: 110px;
+    background-color: #6754e2;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: -5px 1px 2px rgba(253, 253, 253, 0.1), 0 0 0 2px rgba(202, 197, 197, 0.1);
+    border-radius: 8px;
+}
+.bloc3-container {
+    background-color: lavender;
+    margin-top: 0px;
+}
+.bloc3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.post {
+    margin-right: 100px;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-shadow: -5px 1px 2px rgba(253, 253, 253, 0.1), 0 0 0 2px rgba(202, 197, 197, 0.1);
+    border-radius: 8px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card1 img {
+    width: 30%;
+    height: 30%; 
+    margin: 5px;
+    align-items: center;
+}
